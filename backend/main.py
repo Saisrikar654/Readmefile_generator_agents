@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from crewai import Crew, Process
 
 os.environ["CREWAI_TELEMETRY_OPT_OUT"] = "true"
-os.environ["GEMINI_API_KEY"] =  "AIzaSyDv_BSSGX2S8ubdZQNT9ERUG3ZWeDaKges"
+os.environ["GEMINI_API_KEY"] =  "API_KEY"
 
 from agents.definitions import tech_writer,markdown_designer,portfolio_optimizer,qa_engineer
 from agents.tasks import create_polish_task, created_draft_task,create_optimization_task,create_qa_task
