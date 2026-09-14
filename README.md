@@ -1,4 +1,4 @@
-```markdown
+
 # 🤖 Multi-Agent README Generator
 
 An autonomous multi-agent system designed to inspect source code, parse repository structures, extract dependencies, and generate production-ready, clean `README.md` documentation with zero manual overhead.
